@@ -1,0 +1,28 @@
+{
+  "name": "enhance-your-skills",
+  "version": "1.0.0",
+  "description": "A Website that is for people around the globe to attend a summit about \"Enhancing their Skills\". Designed with HTML, CSS, Bootstrap and JavaScript.\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana-Mudassir/Enhance-Your-Skills.git"
+  },
+  "keywords": [
+    "Web",
+    "Development",
+    "Front-end",
+    "Designing",
+    "HTML",
+    "CSS",
+    "Bootstrap"
+  ],
+  "author": "Mudassir Nazir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rana-Mudassir/Enhance-Your-Skills/issues"
+  },
+  "homepage": "https://github.com/Rana-Mudassir/Enhance-Your-Skills#readme"
+}
