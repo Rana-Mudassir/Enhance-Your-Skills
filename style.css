@@ -128,15 +128,31 @@
   }
 
   .prgrmCol {
-    padding: 50px;
+    padding: 30px;
     flex: none;
   }
 
   #prgrmCol1 {
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-top: 1px;
   }
 
   #prgrmCol2 {
-    padding-right: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  #logo2 {
+    width: 50%;
+    height: 50%;
+    padding-top: 25px;
+  }
+
+  .cpyrt {
+    padding: 10px;
   }
 }
