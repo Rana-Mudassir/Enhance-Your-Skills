@@ -1,0 +1,142 @@
+#main1 {
+  background-image: url(./images/main1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#main2 {
+  background-image: url(./images/main2.jpg);
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.mainPara > p {
+  width: 43%;
+  border-style: solid;
+  padding: 10px;
+}
+
+.nav2 > li {
+  padding-left: 80px;
+}
+
+.navLogout {
+  padding-right: 30px;
+}
+
+#logoMain {
+  width: 54%;
+}
+
+.cpyrt {
+  padding-top: 50px;
+}
+
+.prgrmCard {
+  background-color: rgba(33, 33, 36, 0.603);
+  width: 100%;
+}
+
+#prgrmHearder {
+  text-align: center;
+}
+
+#prgrmHr {
+  width: 15%;
+  margin: auto;
+  border: 1px solid red;
+  opacity: unset;
+}
+
+#prgrmCol1 {
+  padding-left: 300px;
+}
+
+#prgrmCol2 {
+  padding-right: 300px;
+}
+
+.prgrmTitle {
+  color: yellow;
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+}
+
+.spekrCard {
+  display: flex;
+  flex-direction: row;
+  background: unset;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.spekrHeading {
+  color: red;
+  font-style: italic;
+}
+
+.spekrImg {
+  width: -webkit-fill-available;
+}
+
+.spekrImg > img {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  margin: -10px;
+}
+
+.spekrImg1 {
+  z-index: 1;
+  width: 12%;
+}
+
+.spekrImg2 {
+  z-index: 3;
+  width: 30%;
+  padding: 12px;
+}
+
+#spekrHr {
+  width: 8%;
+  border: 2px solid silver;
+  opacity: unset;
+}
+
+.Partner > img {
+  margin-right: 36px;
+  width: 20%;
+}
+
+@media (max-width: 640px) {
+  .nav1 {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .mainPara > p {
+    width: 100%;
+  }
+
+  .prgrmCol {
+    padding: 50px;
+    flex: none;
+  }
+
+  #prgrmCol1 {
+    padding-left: 50px;
+  }
+
+  #prgrmCol2 {
+    padding-right: 50px;
+  }
+}
