@@ -60,10 +60,12 @@ const cardsObj = [
   },
 ];
 
+/*  eslint-disable no-return-assign */
+// eslint-disable-next-line no-return-assign
+
 if (cardSection) {
   cardsObj.map(
-    (card) =>
-      (cardSection.innerHTML += `<div class="col-6">
+    (card) => cardSection.innerHTML += `<div class="col-6">
 						<div class="card spekrCard">
               <div class="spekrImg">
                 <img
@@ -87,7 +89,7 @@ if (cardSection) {
                 </p>
               </div>
             </div>
-          </div>`),
+          </div>`,
   );
 }
 
