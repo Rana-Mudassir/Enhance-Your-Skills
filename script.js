@@ -66,7 +66,7 @@ const cardsObj = [
 if (cardSection) {
   cardsObj.map(
     (card) => cardSection.innerHTML += `<div class="col-6">
-						<div class="card spekrCard">
+					<div class="card spekrCard">
               <div class="spekrImg">
                 <img
                   src="${card.image1}"
