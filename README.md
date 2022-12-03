@@ -1,8 +1,6 @@
 # Enhance-Your-Skills
 A Website that is for people around the globe to attend a summit about "Enhancing their Skills". Designed with HTML, CSS, Bootstrap and JavaScript.
 
-<a name="readme-top"></a>
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -38,38 +36,21 @@ A Website that is for people around the globe to attend a summit about "Enhancin
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Enhance Your Skills] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> A Website that is for people around the globe to attend a summit about "Enhancing their Skills". Designed with HTML, CSS, Bootstrap and JavaScript.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-Describe the tech stack and include only the relevant sections that apply to your project.
+> HTML ,CSS ,Javascript
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
@@ -79,9 +60,8 @@ Describe the tech stack and include only the relevant sections that apply to you
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Responsive]**
+- **[Dynamic]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +71,7 @@ Describe the tech stack and include only the relevant sections that apply to you
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://rana-mudassir.github.io/Enhance-Your-Skills/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +83,7 @@ Describe the tech stack and include only the relevant sections that apply to you
 
 ### Setup
 
-git clone https://github.com/Rana-Mudassir/portfolio_project.git
+git clone https://github.com/Rana-Mudassir/Enhance-Your-Skills.git
 
 Run the index.html file on uyour browser.
 
@@ -123,7 +103,7 @@ npm i
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Mudassir**
 
 - GitHub: [@githubhandle](https://github.com/Rana-Mudassir)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -169,13 +149,10 @@ Feel free to check the [issues page](../../issues/).
 ## ❓ FAQ <a name="faq"></a>
 
 
-- **[Question_1]**
+- **[Is this Respnisve?]**
 
-  - [Answer_1]
+  - [Yes]
 
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
