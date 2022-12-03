@@ -236,6 +236,10 @@ h6 {
   display: none;
 }
 
+.navlink {
+  color: white;
+}
+
 .moreDiv {
   display: none;
 }

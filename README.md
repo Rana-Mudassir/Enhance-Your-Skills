@@ -142,9 +142,11 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Cindy Shin 
+Website https://www.behance.net/adagio07
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
