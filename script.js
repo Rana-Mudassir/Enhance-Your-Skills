@@ -2,11 +2,11 @@ const cardSection = document.getElementById('speakerSection');
 
 const btn = document.querySelector('#buttonDiv');
 
-function on() {
+function onn() {
   document.getElementById('layer').style.display = 'block';
 }
 if (btn) {
-  btn.addEventListener('click', on);
+  btn.addEventListener('click', onn);
 }
 
 const cardsObj = [
