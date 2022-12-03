@@ -1,5 +1,12 @@
 const cardSection = document.getElementById('speakerSection');
 
+const btn = document.querySelector('#buttonDiv');
+
+function on() {
+  document.getElementById('layer').style.display = 'block';
+}
+btn.addEventListener('click', on);
+
 const cardsObj = [
   {
     image1: 'images/chess.jpg',

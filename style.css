@@ -1,5 +1,6 @@
 #main1 {
-  background-image: url(./images/main1.jpg);
+  background-image: url(./pages/images/main11.png);
+  box-shadow: inset 0 0 0 1000px rgb(198 192 191 / 80%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -11,6 +12,10 @@
   height: auto;
   padding-top: 30px;
   padding-bottom: 80px;
+}
+
+.mainText {
+  color: #e44141;
 }
 
 .mainPara > p {
@@ -33,11 +38,23 @@
 
 .cpyrt {
   padding-top: 50px;
+  color: white;
+}
+
+.cpyrt1 {
+  padding-top: 50px;
+  color: black;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
 }
 
 .prgrmCard {
   background-color: rgba(33, 33, 36, 0.603);
   width: 100%;
+  padding: 8px;
 }
 
 #prgrmHearder {
@@ -60,8 +77,54 @@
 }
 
 .prgrmTitle {
-  color: yellow;
+  color: #c80000;
   text-align: center;
+  padding-top: 8px;
+}
+
+.imagePast {
+  width: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(179, 43, 19, 0.8);
+}
+
+.imgPast1 {
+  background-image: url(./images/past2015.jpg);
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: inset 0 0 0 1000px rgb(219 110 90 / 80%);
+  height: 18rem;
+  height: 15rem;
+  width: 24rem;
+  width: 26rem;
+  margin-bottom: 2rem;
+  color: aliceblue;
+  display: flex;
+
+  align-items: center;
+}
+
+.data-center {
+  margin: 30px 146px 2rem 198px;
+}
+
+.imgPast2 {
+  background-image: url(./images/past2015.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 18rem;
+  width: 26rem;
+  color: aliceblue;
+  margin-bottom: 2rem;
+  display: flex;
+  background-size: 100% 100%;
+  box-shadow: inset 0 0 0 1000px rgb(219 110 90 / 80%);
+  flex-direction: column;
+
+  height: 15rem;
+  width: 24rem;
 }
 
 .card-text {
@@ -74,6 +137,15 @@
   background: unset;
   border: none;
   margin-bottom: 40px;
+}
+
+.textSection3 {
+  text-align: center;
+  width: 40%;
+}
+
+.card-body {
+  padding: 0;
 }
 
 .spekrHeading {
@@ -114,6 +186,18 @@
   width: 20%;
 }
 
+#layer1 {
+  display: none;
+}
+
+.moreDiv {
+  display: none;
+}
+
+.footer {
+  background-color: black;
+}
+
 @media (max-width: 640px) {
   .nav1 {
     display: none;
@@ -127,21 +211,51 @@
     width: 100%;
   }
 
+  .prgrmCard {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .prgrmCard > div {
+    width: 20%;
+  } */
+
   .prgrmCol {
-    padding: 30px;
+    padding: 10px;
     flex: none;
   }
 
   #prgrmCol1 {
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 1px;
   }
 
   #prgrmCol2 {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-bottom: 20px;
   }
 
+  .card-img {
+    width: 20%;
+  }
+
+  .card-img > i {
+    padding-top: 2px;
+  }
+
+  .prgrmTitle {
+    padding-top: 15px;
+    padding-left: 4px;
+  }
+
+  .card-body {
+    width: auto;
+    padding-left: 20px;
+  }
+
+  .textSection3 {
+    width: 100%;
+  }
   .col-6 {
     width: 100%;
   }
@@ -154,5 +268,43 @@
 
   .cpyrt {
     padding: 10px;
+    color: black;
+  }
+  .cpyrt1 {
+    padding: 10px;
+  }
+
+  .spekrImg {
+    margin: 28px;
+  }
+
+  .moreDiv {
+    display: flex;
+  }
+
+  #layer {
+    display: none;
+  }
+
+  #layer1 {
+    display: block;
+  }
+
+  .imgPast1 {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .imgPast2 {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .data-center {
+    margin: 1px;
+  }
+
+  .footer {
+    background-color: white;
   }
 }
