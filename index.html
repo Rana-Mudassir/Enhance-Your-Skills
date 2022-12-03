@@ -48,11 +48,11 @@
 
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./images/Enha (1).png" alt="logo" id="logoMain" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler main_btn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavbar"
@@ -63,7 +63,7 @@
           class="collapse navbar-collapse justify-content-end"
           id="collapsibleNavbar"
         >
-          <ul class="navbar-nav nav2">
+          <ul id="menyOptions" class="navbar-nav nav2">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
@@ -75,6 +75,28 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#partners">Partners</a>
+            </li>
+          </ul>
+          <ul id="popup" class="navbar-nav nav2">
+            <div id="cross-icon">
+              <img
+                onclick="off()"
+                class="style-li"
+                src="/images/close-Icon.png"
+                alt="close-Icon"
+              />
+            </div>
+            <li onclick="off()" class="nav-item">
+              <a class="nav-link li-nav" href="./index.html">Home</a>
+            </li>
+            <li onclick="off()" class="nav-item">
+              <a class="nav-link li-nav" href="./pages/about.html">About</a>
+            </li>
+            <li onclick="off()" class="nav-item">
+              <a class="nav-link li-nav" href="#spearkers">Speakers</a>
+            </li>
+            <li onclick="off()" class="nav-item">
+              <a class="nav-link li-nav" href="#partners">Partners</a>
             </li>
           </ul>
         </div>
@@ -312,7 +334,7 @@
         <div class="d-flex justify-content-center bg-light">
           <img id="logo2" src="./images/Enha (1).png" alt="logo" />
           <h3 class="cpyrt1">
-            © 2022 Web Development Courses, Some Right Reserved.
+            © 2022 Enhance Your Skills, Some Right Reserved.
           </h3>
         </div>
       </div>

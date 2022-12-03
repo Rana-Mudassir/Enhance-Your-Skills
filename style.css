@@ -1,9 +1,58 @@
+@import url('./Lato-Light.ttf');
+@import url('./Cocogoose\ Pro\ Semilight-trial\ \(1\).ttf');
+
 #main1 {
   background-image: url(./pages/images/main11.png);
   box-shadow: inset 0 0 0 1000px rgb(198 192 191 / 80%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'lato', sans-serif;
+}
+
+#popup {
+  display: none;
+}
+
+#popup {
+  position: fixed;
+  backdrop-filter: blur(3px);
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(154, 155, 168, 0.903);
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#cross-icon {
+  padding-top: 78px;
+  padding-left: 325px;
+}
+
+.style-li {
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.li-nav {
+  color: rgb(52, 69, 99);
+  font-weight: 500;
+  font-size: x-large;
 }
 
 #main2 {
@@ -306,5 +355,22 @@
 
   .footer {
     background-color: white;
+  }
+
+  #popup {
+    position: fixed;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(154, 155, 168, 0.903);
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  #menyOptions {
+    display: none;
   }
 }
