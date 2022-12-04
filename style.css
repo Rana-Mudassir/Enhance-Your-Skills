@@ -119,11 +119,24 @@ h6 {
 }
 
 #prgrmCol1 {
-  padding-left: 300px;
+  margin-left: 300px;
 }
 
 #prgrmCol2 {
-  padding-right: 300px;
+  margin-right: 300px;
+}
+
+.prgrmBelow {
+  display: none;
+}
+
+.prgrmBelow1 {
+  display: block;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+  padding-top: 60px;
 }
 
 .prgrmTitle {
@@ -283,6 +296,17 @@ h6 {
   #prgrmCol2 {
     padding-right: 10px;
     padding-bottom: 20px;
+  }
+
+  .prgrmBelow {
+    display: block;
+    background-color: #d13d05;
+    padding: 19px;
+    color: white;
+  }
+
+  .prgrmBelow1 {
+    display: none;
   }
 
   .card-img {
