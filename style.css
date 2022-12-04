@@ -119,11 +119,11 @@ h6 {
 }
 
 #prgrmCol1 {
-  margin-left: 300px;
+  padding-left: 300px;
 }
 
 #prgrmCol2 {
-  margin-right: 300px;
+  padding-right: 300px;
 }
 
 .prgrmBelow {
