@@ -1,14 +1,12 @@
 # Enhance-Your-Skills
-A Website that is for people around the globe to attend a summit about "Enhancing their Skills". Designed with HTML, CSS, Bootstrap and JavaScript.
 
+| Project View Screenshots|
+|---------------------------------------|
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+  <img src="./images/enhanceskills1.PNG" width="400" height="700" alt="Project Screenshot">
+  <img src="./images//enhanceskills2.PNG" width="400" height="700" alt="Project Screenshot">
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -36,7 +34,7 @@ A Website that is for people around the globe to attend a summit about "Enhancin
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Enhance Your Skills] <a name="about-project"></a>
+## 📖 [Enhance Your Skills] <a name="about-project"></a>
 
 > A Website that is for people around the globe to attend a summit about "Enhancing their Skills". Designed with HTML, CSS, Bootstrap and JavaScript.
 
